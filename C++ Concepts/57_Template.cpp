@@ -1,0 +1,26 @@
+// C++ Templates
+// This program was created by Yatharth Chauhan
+
+#include <iostream>
+using namespace std;
+
+template <class T>
+class vector
+{
+    T *arr;
+    int size;
+
+public:
+    vector(T *arr)
+    {
+        //code
+    }
+    //and many other methods
+};
+
+int main()
+{
+    vector<int> myVec1();
+    vector<float> myVec2();
+    return 0;
+}
